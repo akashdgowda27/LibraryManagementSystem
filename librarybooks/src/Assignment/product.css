@@ -1,0 +1,44 @@
+.product{
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    /* display: grid ;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly; */
+
+}
+.product .card{
+    width: 38%;
+    height: 45vh;
+    border: 1px solid black;
+    margin: 5vh auto;
+    display: flex;
+}
+.product .card .left{
+    width: 40%;
+    height: 100%;
+    border: 1px solid blue;
+    float: left; /* not nessesary */
+
+}
+.product .card .left img{
+    width: 90%;
+    height: 32vh;
+    border: 1px solid black;
+    margin:5vh auto;
+}
+.product .card .right{
+    width: 60%;
+    height: 100%;
+    border: 1px solid yellow;
+    float: left;   /* not nessesary */
+}
+.product .card .info-cont{
+    padding: 10px;
+    width: 100%;
+    height: 35vh;
+    border: 1px solid green;
+}
+.product .card .btn-cont{
+    
+}

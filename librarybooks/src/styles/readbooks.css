@@ -1,0 +1,71 @@
+.readbooks{
+    width: 100%;
+    height: 90vh;
+    margin-top: 10vh;
+}
+.readbooks .redabook-cont{
+    width: 50vw;
+    height: auto;
+    border: 1px solid rgb(43, 193, 176);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 15px cyan;
+    margin: 15vh auto;
+    display: flex;
+}
+.readbooks .redabook-cont .left{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+.readbooks .redabook-cont .left img{
+    width: 100%;
+    height: auto;
+    margin: 3vh auto;
+    overflow-x: auto;
+}
+.readbooks .redabook-cont .right{
+    width: 70%;
+    height: auto;
+}
+.readbooks .redabook-cont .right table{
+    border: none;
+}
+.readbooks .redabook-cont .right .shortdesc{
+    width: 85%;
+    height: auto;
+    border: 2px solid black;
+    overflow: auto;
+    margin:3vh auto;
+    z-index: -1;
+}
+.readbooks .redabook-cont .right .longdesc{
+    width: 85%;
+    height: auto;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    /* overscroll-behavior-x: auto; */
+    margin:1vh auto;
+    z-index: -1;
+}
+.readbooks .redabook-cont .right .shortdesc button{
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+    margin:  auto;
+    /* overflow: scroll; */
+}
+.readbooks .redabook-cont .right .longdesc button{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:  auto;
+    /* overflow:scroll; */
+
+}
+.readbooks .redabook-cont .right button{
+    width: 30%;
+    height: 4vh;
+    display: block;
+    margin: 2vh auto;
+}

@@ -1,0 +1,16 @@
+.about{
+    width: 100%;
+    height: 90vh;
+    margin-top: 10vh;
+    /* background: url(../images/img1.jpg) cover no-repeat ; */
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .about-info{
+    width: 70vw;
+    height: 50vh;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+}

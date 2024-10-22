@@ -1,0 +1,118 @@
+.home-back{
+    width: 100%;
+    height: 90vh;
+    margin-top: 10vh;
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* backface-visibility: hidden; */
+}
+.home-back .home{
+    width: 100%;
+    height: 90vh;
+    background: rgb(6, 6, 6,0.6);
+    display: flex;
+}
+.home-back .home .left{
+    width: 25%;
+    height: 90vh;
+    border: none;
+    border-radius: 0px 40% 40% 0px;
+    background-color: rgb(0, 0, 0,0.1);
+}
+.home .left .title{
+    width: 100%;
+    height: 30vh;
+    border: none;
+    display: flex;
+    place-items: center;
+    
+}
+.home .left .title .img{
+    width: 50%;
+    height: 25vh;
+    border:none;
+    margin-left: 2vw;
+}
+.home .left .title .img img{
+    width: 100%;
+    height: 100%;
+
+}
+.home .left .title h2{
+    color: white;
+    margin-left: 2vw;
+    
+}
+.home .left .pic{
+    width: 100%;
+    height: 60vh;
+    border:none;
+    border-radius: 0px 0px 50% 0px;
+    
+}
+.left .pic img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 0px 0px 50% 0px;
+}
+.home .right{
+width: 75%;
+height: 90vh;
+border: none;
+
+}
+.home .right .container{
+    width: 70%;
+    height: 60vh;
+    border: 1px solid rgb(243, 235, 235);
+    margin:10vh auto;
+    border-radius: 14px;
+    box-shadow: inset 0px 0px 14px white;
+}
+.home .right .container h2{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 0px 3px 13px gold;
+}
+.home .right .container .cont{
+    width: 100%;
+    height: 50vh;
+    border: none;
+    display: flex;
+}
+.home .right .container .cont .info{
+    width: 60%;
+    height: 50vh;
+    border: none;
+    color: whitesmoke;
+    display: grid;
+    /* place-items: center; */
+    place-content: center;
+}
+.home .right .container .cont .img{
+    width: 40%;
+    height: 50vh;
+}
+.container .cont .img img{
+    width: 100%;
+    height: 50vh;
+}
+/* .home .right .title{
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid black;
+}
+.home .right .btm{
+    width: 35%;
+    height: 70vh;
+    border: none;
+    background: yellow;
+    margin:22vh 50vw;
+}
+.home .right .btm img{
+    width: 100%;
+    height: 70vh;
+} */

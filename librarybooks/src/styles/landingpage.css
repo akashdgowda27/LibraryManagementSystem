@@ -1,0 +1,132 @@
+.landingpage{
+    width: 100%;
+    height: 100vh;
+    border: none;
+    background: url(../images/bg-img2.jpg) center;
+    background-repeat: no-repeat;
+    /* background-position:0px 20% ; */
+    background-size: cover;
+    position: fixed;
+    backface-visibility:initial;
+    top: 0px;
+    left: 0px;
+    transform: scale(1.0);
+}
+.landingpage .container{
+    width: 30vw;
+    height: 45vh;
+    border: 1px solid black;
+    margin: 10% 36%;
+    box-shadow: 0px 0px 19px black;
+    border-radius: 10px;
+    background: rgb(21, 21, 1,0.3);
+}
+.landingpage .container .btn-container{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    margin: 3vh auto;
+    background: none;
+}
+.landingpage .btn-container button{
+    width: 50%;
+    height: 100%;
+    transition:all 0.5s ease-in ;
+    
+}
+.landingpage .adminBtn{
+    margin-left: 0%;
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(230, 4, 4, 0.6);
+    box-shadow: inset 0px 0px 13px white;
+}
+.landingpage .userBtn{
+    margin-left: 50%;
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(167, 218, 89,0.6);
+    box-shadow: inset 0px 0px 13px white;
+}
+.landingpage .heading{
+    text-align: center;
+    /* color: rgb(255, 255, 255); */
+    /* color: orangered; */
+    /* text-shadow: 2px 3px 10px white; */
+    background-image: url(../images/bg-img.jpg);
+    background-color: transparent;
+    background-size: cover;
+    /* background-repeat: repeat; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 24px;
+    font-weight: bolder;
+}
+/* ----------------------- */
+.landingpage .adminform{
+    width: 25vw;
+    height: 20vh;
+    border: 1px solid rgb(237, 212, 86);
+    border-radius: 10px;
+    margin: auto;
+    background: rgb(235, 4, 4);
+    box-shadow: inset 0px 0px 15px yellow;
+}
+.landingpage .adminform input{
+    width: 15vw;
+    height: 3vh;
+    background: rgba(0, 0, 0);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.landingpage .userform{
+    width: 25vw;
+    height: 20vh;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    background: rgb(162, 215, 82,0.7);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 15px rgb(255, 255, 255);
+}
+.landingpage .userform input{
+    width: 15vw;
+    height: 3vh;
+    text-align: center;
+    background: black;
+    color: green;
+    border-radius: 10px;
+}
+/* 
+.landingpage .adminform{
+    background: lavender;
+} */
+.landingpage .adminform input,button{
+    border: 1px solid black;
+    display: block;
+   
+    margin: 2vh auto;
+}
+.landingpage .userform input,button{
+    display: block;
+    margin: 2vh auto;
+}
+.landingpage .adminform  button{
+    background: green;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+.landingpage .userform  button{
+    background: green;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+.landingpage .adminform button:active{
+    transform: scale(1.1);
+    background: yellow;
+}
+.landingpage .userform button:active{
+    transform: scale(1.1);
+    background: yellow;
+}

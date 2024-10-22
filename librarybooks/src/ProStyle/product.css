@@ -1,0 +1,36 @@
+.product{
+    width: 100%;
+}
+.product h1{
+    text-align: center;
+    font-size: 30px;
+    color: violet;
+}
+.product .pro-cont{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.product .pro-cont .card{
+    width: 25vw;
+    height: 60vh;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+.product .pro-cont .card .h2{
+    /* font: optional; */
+    font-size: 20px;
+    color: red;
+}
+.product .pro-cont .card .img{
+    width: 80%;
+    height: 30vh;
+    margin: 4vh auto;
+}
+.product .pro-cont .card img{
+    width: 100%;
+    height: 100%;
+
+}

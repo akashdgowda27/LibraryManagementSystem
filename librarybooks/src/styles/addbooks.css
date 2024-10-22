@@ -1,0 +1,25 @@
+.addbooks .container{
+    width: 40VW;
+    border: 1px solid rgb(10, 181, 233);
+    margin: 10vh auto;
+    border-radius: 20px;
+    background: rgb(33, 224, 224,0.4);
+}
+.addbooks .container input{
+    width: 60%;
+    height: 3vh;
+    border-radius:12px ;
+    display: block;
+    margin: 1.4vh auto;
+    
+}
+.addbooks .container input[placeholder]{
+    text-align: center;
+}
+.addbooks .container button{
+    width: 20%;
+    height: 3.5vh;
+    border-radius: 12px;
+    background: skyblue;
+    border: 3px solid blue;
+}

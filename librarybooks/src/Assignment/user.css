@@ -1,0 +1,20 @@
+.user-cont{
+    width: 100%;
+    height: 25vh;
+}
+.user-cont input,button{
+    display: block;
+    margin: 2vh auto;
+}
+.user-cont input{
+    width: 70%;
+    height: 3.5vh;
+    border: 2px solid rgb(51, 255, 0);
+    border-radius: 10px;
+}
+.user-cont button{
+    width: 30%;
+    height: 4vh;
+    border: 2px solid white;
+    border-radius: 10px;
+}

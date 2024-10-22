@@ -1,0 +1,54 @@
+.users{
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+
+}
+.users h1{
+    text-align: center;
+    font: 30px bolder ;
+}
+.users .user-container{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+}
+.users .user-container .card{
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid black;
+    margin-top:5vh ;
+    display: flex;
+}
+.users .user-container .card .left{
+    width: 35%;
+    height: 40vh;
+}
+.users .user-container .card .left img{
+    width: 90%;
+    height: 35vh;
+    
+}
+.users .user-container .card .right table th{
+    color: blue;
+}
+.users .user-container .card .right table th,td{
+    padding-top: 2vh;
+}
+.users .user-container .card .right table td{
+    color: green;
+}
+.users .user-container .card .right button{
+    width: 25%;
+    height: 3vh;
+    border: 2px solid red;
+    border-radius: 13px;
+}
+.users .user-container .card .right button:active{
+    background:crimson ;
+    transform: scale(1.1);
+    color: yellow;
+}

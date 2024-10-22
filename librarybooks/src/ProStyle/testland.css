@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.testlanding{
+    width: 100%;
+    height: auto;
+}
+.testlanding .test-cont{
+    width: 40vw;
+    height: 30vh;
+    border: 1px solid black;
+    margin:20vh auto;
+}
+.testlanding .test-cont h2{
+    text-align: center;
+    margin-top: 1vh;
+    color: blue;
+}
+.testlanding .test-cont input,button{
+    display: block;
+    margin: 2vh auto;
+}
+.testlanding .test-cont input{
+    width: 80%;
+    height: 3.5vh;
+}
